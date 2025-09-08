@@ -1,3 +1,5 @@
+import dotenv from "dotenv";
+dotenv.config({ path: "../../packages/prisma/.env"})
 import express from "express"
 import {client} from "@repo/db/client"
 
